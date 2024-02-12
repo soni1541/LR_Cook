@@ -26,18 +26,21 @@
             android:id="@+id/button_id_ru"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
             android:text="@string/lang_ru" />
 
         <Button
             android:id="@+id/button_id_en"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
             android:text="@string/lang_en" />
 
         <Button
             android:id="@+id/button_id_fr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#000000"
             android:text="@string/lang_fr" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

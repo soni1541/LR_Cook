@@ -10,4 +10,10 @@
     <string name="lang_en">English</string>
     <string name="lang_ru">Russian</string>
     <string name="lang_fr">French</string>
+    <string name="breakfest1_name">FRIED EGGS IN A FRYING PAN</string>
+    <string name="breakfest2_name">CROUTONS FROM A LOAF WITH AN EGG</string>
+    <string name="breakfest3_name">SEMOLINA PORRIDGE WITH MILK</string>
+    <string name="breakfest3_ingrid">Milk-300 ml Semolina-3 tables.l. Sugar-1 tablespoon. Salt-to taste Butter-40g</string>
+    <string name="breakfest2_ingrid">White bread-300g Eggs-1 pc. Milk-50ml Butter-40g Salt-to taste</string>
+    <string name="breakfest1_ingrid">Eggs-1 pc. Butter-10g Salt-to taste Ground hot pepper-to taste</string>
 </resources>

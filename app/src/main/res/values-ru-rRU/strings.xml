@@ -10,4 +10,10 @@
     <string name="lang_en">Английский</string>
     <string name="lang_ru">Русский</string>
     <string name="lang_fr">Французский</string>
+    <string name="breakfest1_name">ЯИЧНИЦА НА СКОВОРОДЕ</string>
+    <string name="breakfest2_name">ГРЕНКИ ИЗ БАТОНА С ЯЙЦОМ</string>
+    <string name="breakfest3_name">МАННАЯ КАША НА МОЛОКЕ</string>
+    <string name="breakfest3_ingrid">"Молоко-300мл Манка-3стол.л. Сахар-1стол.л. Соль-по вкусу Сливочное масло-40гр "</string>
+    <string name="breakfest2_ingrid">Белый хлеб-300гр Яйца-1шт. Молоко-50мл Сливочное масло-40гр Соль-по вкусу</string>
+    <string name="breakfest1_ingrid">Яйца-1 шт. Сливочное масло-10гр Соль-по вкусу Перец острый молотый-по вкусу</string>
 </resources>
