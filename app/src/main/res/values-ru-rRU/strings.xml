@@ -7,4 +7,7 @@
     <string name="eat3">Ужин</string>
     <string name="change_lang">Выбрать язык</string>
     <string name="fio">Казунина Софья Т-403901 ИСиТ</string>
+    <string name="lang_en">Английский</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_fr">Французский</string>
 </resources>

@@ -4,62 +4,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".LanguageActivity">
 
     <LinearLayout
         android:layout_width="409dp"
         android:layout_height="729dp"
-        android:gravity="center_horizontal"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:text="@string/fio"
-            android:textColor="#000000"
-            android:textSize="20sp" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:backgroundTint="#000000"
-            android:onClick="change_lang"
-            android:text="@string/change_lang" />
-
-        <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="@string/name"
+            android:text="@string/change_lang"
             android:textColor="#000000"
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button_id_ru"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#FFC107"
-            android:text="@string/eat1" />
+            android:text="@string/lang_ru" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button_id_en"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#8BC34A"
-            android:text="@string/eat2" />
+            android:text="@string/lang_en" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_id_fr"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#2196F3"
-            android:text="@string/eat3" />
+            android:text="@string/lang_fr" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

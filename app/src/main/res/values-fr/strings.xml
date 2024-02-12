@@ -7,4 +7,7 @@
     <string name="eat3">Souper</string>
     <string name="change_lang">Choisir la langue</string>
     <string name="fio">Kazunina Sophia T - 403901 Isit</string>
+    <string name="lang_en">Anglais</string>
+    <string name="lang_ru">Russe</string>
+    <string name="lang_fr">Français</string>
 </resources>

@@ -7,4 +7,9 @@
     <string name="eat1">Завтрак</string>
     <string name="eat2">Обед</string>
     <string name="eat3">Ужин</string>
+
+    <string name="lang_ru">Русский</string>
+    <string name="lang_en">Английский</string>
+    <string name="lang_fr">Французский</string>
+
 </resources>
