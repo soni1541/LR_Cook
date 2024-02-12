@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LR_Cook</string>
+    <string name="name">Recettes culinaires</string>
+    <string name="eat1">Déjeuner</string>
+    <string name="eat2">Dîner</string>
+    <string name="eat3">Souper</string>
+    <string name="change_lang">Choisir la langue</string>
+    <string name="fio">Kazunina Sophia T - 403901 Isit</string>
+</resources>

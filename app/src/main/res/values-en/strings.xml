@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LR_Cook</string>
+    <string name="name">Cooking recipes</string>
+    <string name="eat1">Breakfast</string>
+    <string name="eat2">Lunch</string>
+    <string name="eat3">Dinner</string>
+    <string name="change_lang">Change language</string>
+    <string name="fio">Kazunina Sofya T-403901 ISIT</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LR_Cook</string>
+
+    <string name="fio">Казунина Софья Т-403901 ИСиТ</string>
+    <string name="change_lang">Выбрать язык</string>
+    <string name="name">Кулинарные рецепты</string>
+    <string name="eat1">Завтрак</string>
+    <string name="eat2">Обед</string>
+    <string name="eat3">Ужин</string>
+</resources>
