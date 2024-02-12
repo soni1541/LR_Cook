@@ -19,4 +19,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, LanguageActivity.class);
         startActivity(intent);
     }
+    public void show_breakfest(View view) {
+        Intent intent = new Intent(MainActivity.this, BreakfestActivity.class);
+        startActivity(intent);
+    }
+
 }

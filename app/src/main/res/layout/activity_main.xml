@@ -46,6 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFC107"
+            android:onClick="show_breakfest"
             android:text="@string/eat1" />
 
         <Button
