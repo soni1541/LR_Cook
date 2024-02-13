@@ -12,6 +12,18 @@
         android:theme="@style/Theme.LR_Cook"
         tools:targetApi="31">
         <activity
+            android:name=".Dinner1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".DinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lunch1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LunchActivity"
+            android:exported="false" />
+        <activity
             android:name=".Breakfest3Activity"
             android:exported="false" />
         <activity

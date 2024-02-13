@@ -54,6 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#8BC34A"
+            android:onClick="show_lunch"
             android:text="@string/eat2" />
 
         <Button
@@ -61,6 +62,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#2196F3"
+            android:onClick="show_dinner"
             android:text="@string/eat3" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

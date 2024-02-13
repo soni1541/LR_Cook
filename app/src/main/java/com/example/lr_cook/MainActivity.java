@@ -23,5 +23,13 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this, BreakfestActivity.class);
         startActivity(intent);
     }
+    public void show_lunch(View view) {
+        Intent intent = new Intent(MainActivity.this, LunchActivity.class);
+        startActivity(intent);
+    }
+    public void show_dinner(View view) {
+        Intent intent = new Intent(MainActivity.this, DinnerActivity.class);
+        startActivity(intent);
+    }
 
 }
