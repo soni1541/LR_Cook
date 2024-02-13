@@ -34,6 +34,15 @@
                 android:textColor="#000000"
                 android:textSize="20sp" />
 
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:text="@string/lunch1_time"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
             <Button
                 android:id="@+id/button_lunch1"
                 android:layout_width="match_parent"
