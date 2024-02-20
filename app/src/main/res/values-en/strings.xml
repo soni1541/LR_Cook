@@ -33,4 +33,8 @@
     <string name="dinner1_ingrid">Smoked chicken-200g\nCanned corn-200 g\nEggs-3 pcs.\nKorean carrots-150g\nHard cheese-50g\nMayonnaise-70g</string>
     <string name="dinner1_cooking">1. Prepare the ingredients. Boil the eggs in boiling water in advance for 7-9 minutes. Then drain the hot water from them and cool the eggs in cold water. Open the jar of corn and drain the liquid from it.\n\n        2. Cut the smoked chicken breast into small cubes.\n\n        3. Let\'s put the salad in layers in a ring. Put the chopped smoked chicken in the first layer and press down a little so that the layer is more dense. Brush the chicken with a small amount of mayonnaise.\n\n        4. Cut the Korean carrots a little smaller than they are. In small pieces, it will look more harmonious in a salad.\n\n        5. Put the chopped carrots in the next layer of lettuce and brush with mayonnaise.\n\n        6. Put the third layer of cheese, grated on a medium or fine grater. Brush it with mayonnaise as well.\n\n        7. Peel the boiled eggs from the shell, grate them and put them in a ring on top of the cheese layer. And some more mayonnaise.\n\n        8. Put the canned corn in the top layer. Press down all the layers a little so that the salad is more dense and does not fall apart. Remove the ring from the salad. A delicious salad with smoked chicken and Korean carrots is ready! Cool it a little before serving!</string>
     <string name="dinner1_time">40 min</string>
+    <string name="timer">Timer</string>
+    <string name="start">Start</string>
+    <string name="eggs">Boil eggs</string>
+    <string name="boiling">Before the porridge boils</string>
 </resources>
