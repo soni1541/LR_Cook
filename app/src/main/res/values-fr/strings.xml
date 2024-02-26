@@ -37,4 +37,5 @@
     <string name="start">Start</string>
     <string name="eggs">Faire bouillir les oeufs</string>
     <string name="boiling">Jusqu\'à ébullition de la bouillie</string>
+    <string name="lunch1_name_timer">Cuisson des pois</string>
 </resources>

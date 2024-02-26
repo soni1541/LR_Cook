@@ -27,8 +27,8 @@ public class Breakfest3Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_breakfest3);
 
-        btn_start = findViewById(R.id.button_start_breakfest3);
-        timer_text_view = findViewById(R.id.textView_timer_breakfest3);
+        btn_start = findViewById(R.id.button_start_lunch1);
+        timer_text_view = findViewById(R.id.textView_timer_lunch1);
 
         minutes = 120000;
         btn_start.setOnClickListener(new View.OnClickListener() {
@@ -37,6 +37,13 @@ public class Breakfest3Activity extends AppCompatActivity {
                 if(timer!=null)
                 {
                     timer.cancel();
+                    timer = null;
+                    timer_text_view.setText("02:00");
+
+                    btn_start.setText(getString(R.string.start));
+                    btn_start.setBackgroundColor(Color.parseColor("#FF9800"));
+
+                    return;
                 }
                 btn_start.setText("Сброс");
                 btn_start.setBackgroundColor(Color.BLACK);
@@ -54,7 +61,7 @@ public class Breakfest3Activity extends AppCompatActivity {
 
                     @Override
                     public void onFinish() {
-                        btn_start.setText("СТАРТ");
+                        btn_start.setText(getString(R.string.start));
                         btn_start.setBackgroundColor(Color.parseColor("#FF9800"));
                     }
                 };
