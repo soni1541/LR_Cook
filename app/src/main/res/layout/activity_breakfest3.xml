@@ -107,6 +107,14 @@
                 android:textSize="16sp"
                 android:textStyle="bold" />
 
+            <ImageButton
+                android:id="@+id/imageButton_speak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#000000"
+                app:srcCompat="@android:drawable/ic_lock_silent_mode_off" />
+
             <TextView
                 android:id="@+id/textView11"
                 android:layout_width="match_parent"
