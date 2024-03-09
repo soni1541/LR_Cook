@@ -45,6 +45,7 @@ public class Breakfest3Activity extends AppCompatActivity {
         btn_speak = findViewById(R.id.imageButton_speak);
 
         minutes = 120000;
+        //minutes = 10000;
         btn_start.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,19 +77,19 @@ public class Breakfest3Activity extends AppCompatActivity {
                     @Override
                     public void onFinish() {
 
-                        mediaPlayer = MediaPlayer.create(view.getContext(),R.raw.timer_finish);
+                        mediaPlayer = MediaPlayer.create(view.getContext(),R.raw.timer);
 
                         if(mediaPlayer.isPlaying()){
                             mediaPlayer.stop();
                             mediaPlayer.release();
-                            mediaPlayer = MediaPlayer.create(view.getContext(),R.raw.timer_finish);
+                            mediaPlayer = MediaPlayer.create(view.getContext(),R.raw.timer);
                         }
                         mediaPlayer.start();
 
                         vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
                         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                            long[] pattern = {0, 400, 200, 400};
+                            long[] pattern = {0, 400, 200, 400, 200, 400, 200, 400};
                             vibrator.vibrate(VibrationEffect.createWaveform(pattern,-1));
                         }
                         else {

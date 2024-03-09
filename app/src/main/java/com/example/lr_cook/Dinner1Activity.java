@@ -2,11 +2,17 @@ package com.example.lr_cook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.graphics.Color;
+import android.media.MediaPlayer;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.CountDownTimer;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import java.text.DecimalFormat;
@@ -21,6 +27,10 @@ public class Dinner1Activity extends AppCompatActivity {
     private TextView timer_text_view;
 
     CountDownTimer timer;
+
+    private Vibrator vibrator;
+
+    MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,7 +71,27 @@ public class Dinner1Activity extends AppCompatActivity {
 
                     @Override
                     public void onFinish() {
-                        btn_start.setText("СТАРТ");
+
+                        mediaPlayer = MediaPlayer.create(view.getContext(),R.raw.timer);
+
+                        if(mediaPlayer.isPlaying()){
+                            mediaPlayer.stop();
+                            mediaPlayer.release();
+                            mediaPlayer = MediaPlayer.create(view.getContext(),R.raw.timer);
+                        }
+                        mediaPlayer.start();
+
+                        vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
+
+                        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                            long[] pattern = {0, 400, 200, 400, 200, 400, 200, 400};
+                            vibrator.vibrate(VibrationEffect.createWaveform(pattern,-1));
+                        }
+                        else {
+                            vibrator.vibrate(5000);
+                        }
+
+                        btn_start.setText(getString(R.string.start));
                         btn_start.setBackgroundColor(Color.parseColor("#FF9800"));
                     }
                 };
